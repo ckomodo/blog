@@ -38,6 +38,6 @@ app.get("/", function (req, res) {
   res.render("index");
 });
 
-app.post("/api/post", function (req, res) {
-    res.send("post route")
+app.get("/api/post", function (req, res) {
+    res.render("admin")
 });
